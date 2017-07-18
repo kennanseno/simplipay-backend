@@ -1,0 +1,18 @@
+{
+  "name": "simplipay-backend",
+  "version": "1.0.0",
+  "description": "Easy and fast single-product transaction in Simplify Stores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Kennan Lyle Seno",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "lodash": "^4.17.4",
+    "simplify-commerce": "^1.6.0"
+  }
+}
